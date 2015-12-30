@@ -1,0 +1,11 @@
+#!/bin/sh
+#|-*- mode:lisp -*-|#
+#|
+exec ros -Q -- $0 "$@"
+|#
+(defpackage :ros.script.gen.3660436284
+  (:use :cl))
+(in-package :ros.script.gen.3660436284)
+(defun main (&rest argv)
+  (declare (ignorable argv))
+  (print argv))
